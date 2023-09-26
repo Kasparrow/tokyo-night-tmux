@@ -47,5 +47,5 @@ if [ -z "$OUTPUT" ]
 then
   echo "$OUTPUT #[fg=#24283B,bg=default]"
 else
-  echo "#[fg=#1F2335,nobold]#[fg=brightwhite,bg=#1F2335]  $OUTPUT #[fg=#24283B,bg=#1F2335] "
+  echo "#[fg=#c0caf5,nobold]#[fg=brightwhite,bg=default]  $OUTPUT #[fg=#c0caf5,bg=#default] "
 fi
